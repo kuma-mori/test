@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+.result_content {
+    margin: 0 auto;
+    padding: 60px 15px;
+    max-width: 1230px;
+}
+.result {
+    text-align: center;
+}
+.result_correct {
+    color: #ff0000;
+}
+.result_incorrect {
+    color: #0000ff;
+}
+
+.answer_table {
+    border: 1px solid #ddd;
+}
+.answer_inner {
+    width: 100%;
+}
+.answer_header {
+    padding: 15px;
+    width: 20%;
+    border-bottom: 1px solid #ddd;
+    background-color: #eee;
+    font-weight: bold;
+}
+.answer_text {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.answer_row:last-child .answer_header,
+.answer_row:last-child .answer_text {
+    border-bottom-width: 0;
+}
